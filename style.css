@@ -28,7 +28,7 @@ ul {
     margin: 3px;
 }
 
-li {
+.navigation li {
     display: table-cell;
     width: 100%;
     overflow: hidden;
@@ -37,14 +37,18 @@ li {
     text-align: center;
 }
 
+body {
+    font:  "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
 
-li:hover {
+
+.navigation li:hover {
     background: #575757;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQVQIW2P4L8zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC') repeat-x 0 0, url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D') repeat-y 100% 0, url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC') repeat-y 0 0, rgba(0, 0, 0, .4);
 }
 
 .icon {
-    width: 25px;
+    width: 20px;
     margin-bottom: -6px;
 }
 
@@ -58,6 +62,7 @@ li:hover {
 }
 
 #sp-searchtext {
+    position: relative;
     width: 100px;
     margin-left: -10px;
     height: 19px;
@@ -71,5 +76,82 @@ li:hover {
 }
 
 .search-icon {
-    width: 10px;
+    position: absolute;
+    width: 20px;
+    top: 3px;
+}
+
+h1 {
+    margin-top: 5%; 
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-size: 40px;
+    font-family:  Helvetica, Arial, Verdana, sans-serif;
+}
+
+.everyone {
+    color: white; 
+    font-family:  Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 20%;
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.content {
+    margin-bottom: 15%;
+}
+
+.bottom-img {
+    width: 318px;
+    height: 200px;
+}
+
+.main-content {
+    background: url("hero.jpg") no-repeat bottom;
+    height: 500px;
+}
+
+.footer {
+    display: inline;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    min-width: 900px;
+    padding: 0;
+    color: #6e6e6e;
+    font-size: 10px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #08c;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.footer-nav li {
+    border-left: 1px solid #ccc;
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-bottom: -10px;
+    height: 10px;
 }
