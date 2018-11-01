@@ -127,9 +127,9 @@ h4 {
     min-width: 900px;
     padding: 0;
     color: #6e6e6e;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 1.2;
-    text-align: center;
+    text-align: left;
 }
 
 .footer a {
@@ -139,19 +139,33 @@ h4 {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-nav {
     display: flex;
     margin-top: 10px;
+    width: 560px;
 }
 
 
 .footer-nav li {
-    border-left: 1px solid #ccc;
-    margin-left: 5px;
-    padding-left: 5px;
+    border-right: 1px solid #ccc;
+    padding-right: 5px;
+    padding-left: 3px;
     margin-bottom: -10px;
     height: 10px;
+    font-size: 9px;
+}
+
+.last-footer {
+    margin-left: 12%;
+    font-size: 9px;
+}
+
+.left-footer {
+    font-size: 9px;
+    width: 500px;
 }
