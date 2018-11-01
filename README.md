@@ -1,2 +1,2 @@
 # Apple-homepage
-This is my Apple Homepage project from The odin project curriculum.
+This is my Apple Homepage project from The Odin Project curriculum.
